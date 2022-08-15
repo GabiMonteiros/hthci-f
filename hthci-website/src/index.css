@@ -1,0 +1,313 @@
+/*////////////////HOME////////////////*/
+
+.title-home {
+    max-width: 960px;
+    padding-left: 2.5rem;
+    color: rgb(236, 240, 235);
+    font-family: "Noto Sans";
+    font-size: 20px;
+}
+
+/*____________________ home /project/ about/ get involved page__________________ */
+
+.intro-wrap h2 {
+    padding-top: 15px;
+    text-align: center;
+    color: rgb(67, 152, 47);
+    font-size: 45px;
+}
+
+.intro-wrap {
+    font-weight: 500;
+    text-align: left;
+    padding: 0 210px 75px 210px;
+    line-height: 1.8;
+    word-spacing: 10px;
+    background-color: #eeeaea;
+}
+
+/* ____________________team /project / home  page_____________________ */
+
+.bodyWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #eeeaea;
+}
+.text-center {
+    text-align: center;
+    background-color: #eeeaea;
+    color: rgb(67, 152, 47);
+    padding-bottom: 25px;
+    font-size: 26px;
+}
+.wrap {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wrap .container {
+    margin: 10px 0;
+    padding: 0 15px 0;
+    display: flex;
+}
+
+.wrap .container .content {
+    margin: 15px;
+}
+
+.content {
+    padding: 5px;
+    line-height: 1.5;
+    word-spacing: 1px;
+    text-justify: distribute;
+}
+
+.content:not(:last-child) {
+    margin-bottom: 1em;
+}
+
+.imgBox img {
+    border-radius: 5px;
+    object-fit: fill;
+}
+
+.capition {
+    color: rgb(67, 152, 47);
+    font-size: 20px;
+}
+/*____________________ about page____________________  */
+
+#about {
+    padding-top: 60px;
+}
+.about {
+    padding: 0 210px 0 210px;
+}
+
+.aboutWrap {
+    padding: 0 55px 0 55px;
+    min-height: 60vh;
+}
+
+.aboutImg {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutImg img {
+    margin: 10px;
+}
+
+/* ____________________get involved _______________________*/
+
+.paypalBtn {
+    width: 260px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeeaea;
+    display: flex;
+    margin: 0 auto;
+}
+
+/* ____________________contact page_____________________ */
+
+.contactWrap {
+    padding-left: 0%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contactContent p {
+    line-height: 1.8;
+    word-spacing: 2px;
+    width: 770px;
+}
+
+.contactContent h2 {
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(67, 152, 47);
+    font-size: 40px;
+}
+#overlay {
+    padding: 40px;
+}
+
+form {
+    min-width: 40px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+label {
+    display: block;
+    margin: 20px 0;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid rgb(147, 142, 142);
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-bottom: 1px solid rgb(6, 165, 6);
+}
+
+.btn {
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+    min-width: 400px;
+}
+
+.btn :hover {
+    background-color: #fff;
+    color: rgb(92, 231, 65);
+    transition: all 0.3s ease-out;
+}
+
+.btn button {
+    background-color: rgb(75, 191, 75);
+    color: rgb(246, 237, 226);
+    font-size: 17px;
+    border-radius: 4px;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+
+/* ____________________thank you page_____________________ */
+
+.thanksPage{
+    padding: 100px;
+    text-align: center;
+    color: rgb(67, 152, 47);
+    font-size: 65px;
+}
+
+/*___________________ responsive (team )_______________*/
+
+@media screen and (max-width: 1235px) {
+    .aboutImg {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-left: 150px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .img-wrap {
+        /* padding: 80px 0 330 0; */
+        padding-top: 80px;
+        padding-bottom: 330px;
+    }
+
+    /* home/ project /team*/
+    .wrap {
+        flex-direction: column;
+        align-content: center;
+    }
+    .wrap .container {
+        flex-direction: column;
+        max-width: 900px;
+    }
+    .wrap .container .imgBox {
+        min-width: 100%;
+    }
+    .wrap .container .content {
+        margin: 0 120px 0 90px;
+    }
+    .imgBox {
+        align-items: center;
+        padding: 0 95px;
+    }
+
+    .intro-wrap {
+        padding: 0 130px 0 130px;
+    }
+
+    /*home*/
+    button {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 950px) {
+    /* ______________contact__________ */
+    .contactContent {
+        width: 520px;
+    }
+
+    .contactContent p {
+        width: 495px;
+        padding-left: 35px;
+        /* text-align: center; */
+    }
+
+  
+}
+
+@media (max-width: 574px) {
+    .wrap .container .content {
+        padding: 0 15px 0 50px;
+    }
+
+    .intro-wrap {
+        padding: 0 35px 0 35px;
+    }
+
+    .intro-wrap .about {
+        padding: 0 1em;
+    }
+
+    .aboutWrap {
+        padding: 0 55px 0 0;
+    }
+
+
+    /*______contact________*/
+    #overlay {
+        max-width: 350px;
+        padding: 0 2px;
+        margin: 0 auto;
+    }
+    .contactContent p {
+        width: 365px;
+        padding: 0px 45px 10px 0px;
+    }
+    .contactWrap {
+        max-width: 370px;
+    }
+
+    .btn {
+        min-width: 200px;
+    }
+
+    .contactWrap .card-container .contactContent {
+        max-width: 370px;
+        padding: 0 30px 0 25px;
+    }
+}
