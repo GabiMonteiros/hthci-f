@@ -8,12 +8,13 @@ import Contact from "./pages/Contact";
 import Team from "./pages/Team";
 import GetInvolved from "./pages/GetInvolved";
 import ThankYou from "./pages/ThankYou";
+import NotFound from "./pages/NotFound";
 
 
 const Content = (props) => (
     <main className="Content">
         <Routes>
-            <Route path="/" element={<Home />}></Route>
+            <Route exact path="/" element={<Home />}></Route>
             <Route path="/about" element={<About />}></Route>
             <Route path="/projects" element={<Projects />}></Route>
             <Route path="/contact" element={<Contact />}></Route>
@@ -21,6 +22,7 @@ const Content = (props) => (
             <Route path="/contact" element={<Contact />}></Route>
             <Route path="/get-involved" element={<GetInvolved />}></Route>
             <Route path="/thank-you" element={<ThankYou />}></Route>
+            <Route path="*" element={<NotFound />}></Route>
         </Routes>
     </main>
 );
