@@ -47,7 +47,7 @@ function Home() {
                             <img
                                 src="/images/04home.jpg"
                                 alt=" after school tutoring"
-                                style={{ height: "280px", width: "440px" }}
+                                style={{ height: "280px", width: "430px" }}
                             />
                         </div>
                         <div className="content">
@@ -80,7 +80,7 @@ function Home() {
                             <img
                                 src="/images/03home.jpg"
                                 alt="someone studying on the computer"
-                                style={{ height: "260px", width: "420px" }}
+                                style={{ height: "270px", width: "430px" }}
                             />
                         </div>
                     </div>
@@ -121,7 +121,7 @@ function Home() {
                             <img
                                 src="/images/02home.jpg"
                                 alt=""
-                                style={{ height: "310px", width: "420px" }}
+                                style={{ height: "290px", width: "435px" }}
                             />
                         </div>
                     </div>

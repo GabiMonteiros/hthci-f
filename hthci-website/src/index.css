@@ -318,4 +318,9 @@ textarea:focus {
         max-width: 370px;
         padding: 0 30px 0 25px;
     }
+
+    .imgBox img{
+        align-items: center;
+        padding: 30px;
+    }
 }

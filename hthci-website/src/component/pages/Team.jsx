@@ -70,7 +70,7 @@ function Team() {
                             <img
                                 src="/images/03.jpg"
                                 alt="Chidiebere img"
-                                style={{ height: "230px", width: "380px" }}
+                                style={{ height: "245px", width: "375px" }}
                             />
                         </div>
 
@@ -105,7 +105,7 @@ function Team() {
                             <img
                                 src="/images/04.jpg"
                                 alt="Adaeze pic"
-                                style={{ height: "250px", width: "370px" }}
+                                style={{ height: "270px", width: "385px" }}
                                 height="250px"
                                 width="370px"
                             />
@@ -117,7 +117,7 @@ function Team() {
                             <img
                                 src="/images/05corte.jpeg"
                                 alt="Ikenna pic"
-                                style={{ height: "255px", width: "375px" }}
+                                style={{ height: "265px", width: "385px" }}
                                 height="255px"
                                 width="375px"
                             />
