@@ -14,7 +14,7 @@ function Footer() {
                 <p></p>
                 <div className="input-areas">
                     <form
-                        action="https://formsubmit.co/5f6e00d7c4c6034420ef33b31899da05"
+                        action="https://formsubmit.co/contact@hthci.org"
                         method="POST"
                     >
                         <input
@@ -63,7 +63,7 @@ function Footer() {
                 </div>
                 <div className="footer-links-wrapper">
                     <div className="footer-links-items">
-                        <Link to="/https://twitter.com/HTHCI">
+                        <Link to="/https://twitter.com/HTHCI_">
                             <h3>Social Media</h3>
                         </Link>
                     </div>
@@ -71,7 +71,7 @@ function Footer() {
                     <div className="social-icons">
                         <Link
                             className="social-icon-link twitter"
-                            to="https://twitter.com/HTHCI"
+                            to="/https://twitter.com/HTHCI_"
                             target="_blank"
                             aria-label="Twitter"
                         >

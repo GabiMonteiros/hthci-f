@@ -33,7 +33,7 @@ function Contact() {
                         <div id="overlay">
                             {/* REVER A PARTE DO for em label */}
                             <form
-                                action="https://formsubmit.co/contatogabimonteiro@gmail.com"
+                                action="https://formsubmit.co/contact@hthci.org"
                                 method="POST"
                             >
                                 <input
@@ -51,7 +51,12 @@ function Contact() {
                                     />{" "}
                                 </label>
 
-                                <input type="hidden" name="_next" value="localhost:3000/thank-you"/> 
+                                {/* _____________________mudar o endereço________________ */}
+                                <input
+                                    type="hidden"
+                                    name="_next"
+                                    value="localhost:3000/thank-you"
+                                />
 
                                 <label for="phone">
                                     Country:{" "}

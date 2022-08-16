@@ -271,6 +271,11 @@ textarea:focus {
 }
 
 @media (max-width: 574px) {
+
+    .aboutImg {
+        
+        padding-left: 50px;
+    }
     .wrap .container .content {
         padding: 0 15px 0 50px;
     }
