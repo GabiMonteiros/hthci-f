@@ -63,20 +63,19 @@ function Footer() {
                 </div>
                 <div className="footer-links-wrapper">
                     <div className="footer-links-items">
-                        <Link to="/https://twitter.com/HTHCI_">
+                        <a href="https://twitter.com/HTHCI_">
                             <h3>Social Media</h3>
-                        </Link>
+                        </a>
                     </div>
 
-                    <div className="social-icons">
-                        <Link
-                            className="social-icon-link twitter"
-                            to="/https://twitter.com/HTHCI_"
-                            target="_blank"
-                            aria-label="Twitter"
-                        >
+                    <div
+                        className="social-icons"
+                        target="_blank"
+                        aria-label="Twitter"
+                    >
+                        <a href="https://twitter.com/HTHCI_">
                             <i className="fab fa-twitter" />
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </div>

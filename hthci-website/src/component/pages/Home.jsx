@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Home() {
     return (
         <>
-            <div className="home">
+            <div className="home" >
                 <div className="title-home">
                     <h1>Home Tutors and Health Charity Initiative </h1>
                 </div>

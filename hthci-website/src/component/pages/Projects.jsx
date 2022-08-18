@@ -1,7 +1,7 @@
 import React from "react";
 
 function Projects() {
-    return (
+    return ( 
         <>
             <div className="projects"></div>
             <div className="intro-wrap">

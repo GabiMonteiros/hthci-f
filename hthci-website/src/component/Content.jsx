@@ -9,11 +9,14 @@ import Team from "./pages/Team";
 import GetInvolved from "./pages/GetInvolved";
 import ThankYou from "./pages/ThankYou";
 import NotFound from "./pages/NotFound";
+// import ScrollToTop from "./ScrollToTop";
+
 
 
 const Content = (props) => (
     <main className="Content">
         <Routes>
+            
             <Route exact path="/" element={<Home />}></Route>
             <Route path="/about" element={<About />}></Route>
             <Route path="/projects" element={<Projects />}></Route>
