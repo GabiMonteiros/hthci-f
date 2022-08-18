@@ -80,7 +80,7 @@ function Home() {
                             <img
                                 src="/images/03home.jpg"
                                 alt="someone studying on the computer"
-                                style={{ height: "270px", width: "430px" }}
+                                style={{ height: "280px", width: "430px" }}
                             />
                         </div>
                     </div>
@@ -90,7 +90,7 @@ function Home() {
                             <img
                                 src="/images/01home.jpg"
                                 alt="a doctor doing an eye exam on someone else"
-                                style={{ height: "280px", width: "440px" }}
+                                style={{ height: "285px", width: "440px" }}
                             />
                         </div>
                         <div className="content">
@@ -121,7 +121,7 @@ function Home() {
                             <img
                                 src="/images/02home.jpg"
                                 alt=""
-                                style={{ height: "290px", width: "435px" }}
+                                style={{ height: "300px", width: "440px" }}
                             />
                         </div>
                     </div>

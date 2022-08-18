@@ -61,7 +61,7 @@ function Projects() {
                             <img
                                 src="/images/02project.jpg"
                                 alt="graduation hat"
-                                style={{ height: "280px", width: "420px" }}
+                                style={{ height: "290px", width: "420px" }}
                             />
                         </div>
                     </div>
@@ -119,7 +119,7 @@ function Projects() {
                             <img
                                 src="/images/05project.jpg"
                                 alt="paul with a family in front of a house"
-                                style={{ height: "310px", width: "420px" }}
+                                style={{ height: "315px", width: "420px" }}
                             />
                         </div>
                         <div className="content">
