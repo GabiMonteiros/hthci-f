@@ -4,6 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import Navbar from '../component/NavBar';
 import Content from '../component/Content';
 import Footer from '../component/Footer';
+import ScrollToTop from '../component/ScrollToTop'
 
 
 
@@ -11,6 +12,7 @@ import Footer from '../component/Footer';
 const App = (props) => (
     <div className="App">
         <BrowserRouter>
+            <ScrollToTop/>
             <Navbar/>
             <Content />
             <Footer/>
