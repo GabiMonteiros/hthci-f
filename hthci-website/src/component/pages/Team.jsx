@@ -5,7 +5,7 @@ function Team() {
         <>
             <div className="team"></div>
             <div className="intro-wrap">
-                <h2>Meet the Team</h2>
+                <h2>Meet the Team</h2> 
             </div>
 
             <div className="bodyWrap">

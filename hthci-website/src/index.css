@@ -1,3 +1,6 @@
+
+
+
 /*////////////////HOME////////////////*/
 
 .title-home {
@@ -24,6 +27,7 @@
     line-height: 1.8;
     word-spacing: 10px;
     background-color: #eeeaea;
+    
 }
 
 /* ____________________team /project / home  page_____________________ */
@@ -43,7 +47,7 @@
     font-size: 26px;
 }
 .wrap {
-    width: 70%;
+    max-width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -95,7 +99,7 @@
 }
 
 .aboutImg {
-    min-width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -261,11 +265,11 @@ textarea:focus {
 @media (max-width: 950px) {
     /* ______________contact__________ */
     .contactContent {
-        width: 520px;
+        max-width: 520px;
     }
 
     .contactContent p {
-        width: 495px;
+        max-width: 495px;
         padding-left: 35px;
         /* text-align: center; */
     }

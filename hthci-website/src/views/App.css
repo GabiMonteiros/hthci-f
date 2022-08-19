@@ -1,10 +1,17 @@
+¡
+html,body{
+    min-width: 100%;
+    overflow-x: hidden;
+}/*horizontal scroll fix*/
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: "PT Sans", sans-serif;
     line-height: 1.5;
-   
+    z-index: 0;
+
 }
 
 .home,
@@ -14,7 +21,6 @@
 .getInvolved,
 .team {
     font-family: system-ui;
-
     line-height: 1.5;
     overflow-x: hidden;
 }
@@ -27,9 +33,6 @@
         ),
         url("/public/images/01homeBanner.jpg");
     background-size: fill;
-    /* background-size: cover; */
-    /* background-attachment: fixed; */
-    /* background-position: center ; */
     margin-left: auto;
     margin-right: auto;
     position: relative;

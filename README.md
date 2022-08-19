@@ -1,2 +1,0 @@
-# hthci-f
-React Website
