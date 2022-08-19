@@ -1,3 +1,12 @@
+html,body{
+    min-width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}/*hzontal scroll fix*/
+
+
 .footer-container {
     background-color: rgb(24, 81, 11);
     padding: 4rem 0 2rem 0;
