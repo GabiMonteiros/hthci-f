@@ -5,7 +5,7 @@ function Contact() {
         <>
             <div className="contact"></div>
             <div className="bodyWrap">
-                <div className="contactWrap">
+                <div clçassName="contactWrap">
                     <div className="card-container">
                         <div className="contactContent">
                             <h2>Home Tutors and Health Charity Initiative</h2>
@@ -51,11 +51,11 @@ function Contact() {
                                     />{" "}
                                 </label>
 
-                                {/* _____________________mudar o endereço________________ */}
+                             
                                 <input
                                     type="hidden"
                                     name="_next"
-                                    value="localhost:3000/thank-you"
+                                    value="hthci.org/thank-you"
                                 />
 
                                 <label for="phone">

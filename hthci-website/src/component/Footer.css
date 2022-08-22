@@ -44,12 +44,13 @@ form {
 }
 
 .footer-input {
-    padding: 8px 20px;
+    padding: 8px 8px;
     border-radius: 5px;
     margin-right: 10px;
     outline: none;
     border: none;
     margin-bottom: 16px;
+    
 }
 
 .footer-links {
@@ -101,7 +102,9 @@ form {
 }
 
 .footer-input {
-    color: #aba5a5;
+    color:  rgb(30, 28, 28);
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
 }
 
 .fab {
@@ -170,5 +173,10 @@ form {
      
     .social-media-wrap {
         flex-direction: column;
+    }
+
+    .footer-contact-heading{
+        text-align: center;
+   
     }
 } 

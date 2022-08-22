@@ -6,7 +6,7 @@ function Projects() {
             <div className="projects"></div>
             <div className="intro-wrap">
                 <h2>Our Projects</h2>
-                <p>
+                <p className="project-parag">
                     <span
                         style={{
                             color: "rgb(67, 152, 47) ",
@@ -30,7 +30,7 @@ function Projects() {
                                 style={{ height: "280px", width: "440px" }}
                             />
                         </div>
-                        <div className="content">
+                        <div className="content" id="project-parag02">
                             <h3 className="capition">After School Tutoring</h3>
                             <p>
                                 Our after-school tutoring offers homework
@@ -90,8 +90,9 @@ function Projects() {
                     </div>
 
                     <div className="container">
-                        <div className="content">
+                        <div className="content" id="project-parag03">
                             <h3 className="capition">
+                                {" "}
                                 Decentralized Wastewater Treatment
                             </h3>
                             <p>
@@ -106,6 +107,7 @@ function Projects() {
                                 barriers to good health and well-being.
                             </p>
                         </div>
+
                         <div className="imgBox">
                             <img
                                 src="/images/04project.jpg"

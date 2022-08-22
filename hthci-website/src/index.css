@@ -239,6 +239,7 @@ textarea:focus {
     .wrap {
         flex-direction: column;
         align-content: center;
+        padding-bottom: 40px;
     }
     .wrap .container {
         flex-direction: column;
@@ -259,6 +260,28 @@ textarea:focus {
         padding: 0 130px 0 130px;
     }
 
+    .intro-wrap h2 {
+        padding: 30px 0px 20px 0;
+    }
+    .text-center {
+        padding-top: 45px ;
+        padding-bottom: 0px;
+        
+    }
+
+    .project-parag{
+        padding-left: 10px;
+    }
+
+    #project-parag02{
+        padding-left: 61px;
+    }
+
+    #project-parag03{
+        padding-left: 54px;
+    }
+
+
     /*home*/
     button {
         margin-bottom: 20px;
@@ -277,7 +300,15 @@ textarea:focus {
         /* text-align: center; */
     }
 
-  
+  .card-container{
+    padding-bottom: 40px;
+  }
+
+/* ______________get involved__________ */
+
+  .paypalBtn {
+    padding-bottom: 50px;
+  }
 }
 
 @media (max-width: 574px) {
@@ -310,11 +341,18 @@ textarea:focus {
         margin: 0 auto;
     }
     .contactContent p {
-        width: 365px;
-        padding: 0px 45px 10px 0px;
+        width: 435px;
+        padding: 20px 45px 20px 62px;
+    }
+
+    .contactContent h2 {
+       padding: 25px 15px 0 15px;
+    
     }
     .contactWrap {
         max-width: 370px;
+        padding-bottom: 40px;
+
     }
 
     .btn {

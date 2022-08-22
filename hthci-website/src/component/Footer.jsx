@@ -11,7 +11,7 @@ function Footer() {
                 <p className="footer-contact-heading">
                     Contact us to know about our projects and our history.
                 </p>
-                <p></p>
+
                 <div className="input-areas">
                     <form
                         action="https://formsubmit.co/contact@hthci.org"
@@ -28,7 +28,6 @@ function Footer() {
                         <textarea
                             name="message"
                             placeholder="write your message here"
-                            id=""
                             cols="50"
                             rows="3"
                         ></textarea>
@@ -63,7 +62,11 @@ function Footer() {
                 </div>
                 <div className="footer-links-wrapper">
                     <div className="footer-links-items">
-                        <a href="https://twitter.com/HTHCI_">
+                        <a
+                            href="https://twitter.com/HTHCI_"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
                             <h3>Social Media</h3>
                         </a>
                     </div>
@@ -73,7 +76,11 @@ function Footer() {
                         target="_blank"
                         aria-label="Twitter"
                     >
-                        <a href="https://twitter.com/HTHCI_">
+                        <a
+                            href="https://twitter.com/HTHCI_"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
                             <i className="fab fa-twitter" />
                         </a>
                     </div>
