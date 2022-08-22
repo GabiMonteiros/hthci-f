@@ -30,8 +30,10 @@ function GetInvolved() {
                 <form
                     className="paypalBtn"
                     action="https://www.paypal.com/donate"
+                    target="_blank"
+                    rel="noreferrer"
                     method="post"
-                    target="_top"
+                    
                 >
                     <input
                         type="hidden"
