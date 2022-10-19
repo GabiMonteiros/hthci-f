@@ -33,7 +33,7 @@ function Contact() {
                         <div id="overlay">
                             {/* REVER A PARTE DO for em label */}
                             <form
-                                action="https://formsubmit.co/contact@hthci.org"
+                                aaction="https://formsubmit.co/contact@hthci.org"
                                 method="POST"
                             >
                                 <input
