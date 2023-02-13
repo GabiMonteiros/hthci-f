@@ -5,14 +5,14 @@
 <h3 align="left">Technologies:</h3>
 
 <div>
-  - React
+
+  - React  
   - Node.js
   - React Router Dom
   - JavaScript 
   - HTML
-  - CSS 
-  
-  
+  - CSS
+    
 </div>
 
 ##
