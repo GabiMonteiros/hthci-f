@@ -25,17 +25,17 @@ function Home() {
                         </strong>
                         
                     </span>{" "}
-                    was born out of a need to improve the academic outcome of
-                    children and young adults in rural communities and to
-                    improve the overall health of these communities. We provide
-                    tutoring and mentorship for youths who are negatively
-                    impacted by the teacher strikes and shortcomings in the
-                    curriculum delivered to them so that they can reach their
-                    full educational potential. We also deliver health services
-                    to this community through annual yearly checkups by trained
-                    health care professionals and activities that promote
-                    well-being.
-                </p>
+                    was born out of a need to improve the
+                    academic outcome of children and young adults in rural communities and to improve the
+                    overall health of these communities. We began by providing tutoring and mentorship for
+                    youths who are negatively impacted by the teacher strikes and shortcomings in the
+                    curriculum delivered to them so that they can reach their full educational potential. We
+                    also deliver health services to this community through annual yearly check-ups by
+                    trained health care professionals and activities that promote well-being. We have
+                    expanded our target areas by serving our community in the following fields: After School
+                    Tutoring, Scholarships, Public Health, Human Development, and Nature Based
+                    Solutions.
+                </p>  
             </div>
             <div className="text-center">
                 <h2>Our Projects</h2>

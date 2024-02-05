@@ -13,7 +13,7 @@ function Team() {
                     <div className="container">
                         <div className="imgBox">
                             <img
-                                src="/images/01corte.jpg"
+                                src="/images/teamPaul.jpg"
                                 alt="paul pic"
                                 style={{ height: "255px", width: "375px" }}
                             />
@@ -59,7 +59,7 @@ function Team() {
 
                         <div className="imgBox">
                             <img
-                                src="/images/02corte.jpg"
+                                src="/images/teamVeronica.jpg"
                                 alt="veronica pic"
                                 style={{ height: "255px", width: "375px" }}
                             />
@@ -68,7 +68,7 @@ function Team() {
                     <div className="container">
                         <div className="imgBox">
                             <img
-                                src="/images/03.jpg"
+                                src="/images/teamChidiebere.jpg"
                                 alt="Chidiebere img"
                                 style={{ height: "245px", width: "375px" }}
                             />
@@ -115,7 +115,7 @@ function Team() {
                     <div className="container">
                         <div className="imgBox">
                             <img
-                                src="/images/05corte.jpeg"
+                                src="/images/teamIkenna.jpg"
                                 alt="Ikenna pic"
                                 style={{ height: "265px", width: "385px" }}
                                 height="265px"
