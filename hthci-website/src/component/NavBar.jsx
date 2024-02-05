@@ -17,12 +17,15 @@ function Navbar() {
       <>
           <nav className="navbar">
               <div className="navbar-container">
+                    <img src="images/logo.jpg"
+                        alt="" />
                   <Link
                       to="/"
                       className="navbar-logo" 
                       onClick={closeMobileMenu}
                   >
-                      HTHCI
+                      {/* HTHCI */}
+                     
                   </Link>
                   <div className="menu-icon" onClick={handleClick}>
                       {/* burger menu */}

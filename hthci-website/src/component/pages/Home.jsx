@@ -9,6 +9,7 @@ function Home() {
             <div className="home" >
                 <div className="title-home">
                     <h1>Home Tutors and Health Charity Initiative </h1>
+    
                 </div>
             </div>
             <div className="intro-wrap">
@@ -94,11 +95,10 @@ function Home() {
                             />
                         </div>
                         <div className="content">
-                            <h3 className="capition">Annual Health Fair</h3>
+                            <h3 className="capition">Public Health</h3>
                             <p>
-                                Through the health fair, members of the
-                                community are provided with health screenings
-                                and teachings for improved public health
+                            Through our health fair, members of the community are provided with health screenings
+                            and teachings for improved health.
                             </p>
                             <Link to="/projects">
                                 <button className="moreLink">Learn More</button>
@@ -108,10 +108,11 @@ function Home() {
 
                     <div className="container">
                         <div className="content">
-                            <h3 className="capition">Construction</h3>
+                            <h3 className="capition">Human Development</h3>
                             <p>
-                                We build and construct solutions that reduces
-                                barriers to good health and well-being .
+                            We provide services and resources that empower individuals to achieve the highest
+                            levels of independence in construction, grants for small business start up, and
+                            community infrastructure.
                             </p>
                             <Link to="/projects">
                                 <button className="moreLink">Learn More</button>
@@ -125,6 +126,27 @@ function Home() {
                             />
                         </div>
                     </div>
+
+                    <div className="container">
+                        <div className="imgBox">
+                            <img
+                                src="/images/05home.jpg"
+                                alt="a doctor doing an eye exam on someone else"
+                                style={{ height: "285px", width: "440px" }}
+                            />
+                        </div>
+                        <div className="content">
+                            <h3 className="capition">Nature Based Solutions</h3>
+                            <p>
+                            We leverage nature to solve problems while safeguarding biodiversity.
+                            </p>
+                            <Link to="/projects">
+                                <button className="moreLink">Learn More</button>
+                            </Link>
+                        </div>
+                    </div>
+
+                    
                 </div>
             </div>
         </>

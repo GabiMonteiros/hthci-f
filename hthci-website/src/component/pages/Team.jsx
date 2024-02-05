@@ -20,40 +20,28 @@ function Team() {
                         </div>
 
                         <div className="content">
-                            <h3 className="capition">Paul Eze, Founder</h3>
+                            <h3 className="capition">Paul Eze, Executive Director</h3>
 
                             <p>
-                                Paul Eze was born in Enugu Nigeria and
-                                immigrated to the United States with his wife
-                                and family but always returns to his soil,
-                                Nigeria. He graduated from University of Nigeria
-                                Nsukka with a master’s degree in Civil
-                                Engineering later went to earn his Nursing
-                                Practitioner degree at Ohio University. He is
-                                following his passion to create an after-school
-                                program that coaches youth and extends his
-                                nursing skills to improve his community’s public
-                                health.
+                            
+                                Paul founded Home Tutors and Health Charity Initiative with his wife and partner. He
+                                has a proven track record as a civil Engineer and nurse. He is following his passion to
+                                create an after-school program that coaches youth and extends his nursing skills to
+                                improve his community’s public health.
                             </p>
                         </div>
                     </div>
                     <div className="container">
                         <div className="content">
                             <h3 className="capition">
-                                Veronica Eze, Co-Founder
+                                Veronica Eze, Executive Director
                             </h3>
 
                             <p>
-                                Veronica Eze was born in Enugu, Nigeria. She
-                                graduated with a Bachelor of Science in Biology
-                                at The University of Nigeria, Nsukka and is a
-                                holder of a Bachelor of Nursing from Ohio
-                                University. She was supported by her mother and
-                                siblings to go to university and later by her
-                                husband and children which motivated her to
-                                begin HTHCI with her husband and partner. She is
-                                passionate about helping her community to make
-                                the world a better place.
+                            
+                                Veronica founded Home Tutors and Health Charity Initiative with her husband and
+                                partner. She brings a unique blend of expertise as a science teacher and nurse. She is
+                                passionate about serving her community.
                             </p>
                         </div>
 
@@ -76,29 +64,22 @@ function Team() {
 
                         <div className="content">
                             <h3 className="capition">
-                                Chidiebere Aninweze, Director of Operations
+                                Chidiebere Aninweze, Program Coordinator
                             </h3>
                             <p>
-                                Chidiebere was born in Enugu, Nigeria. She
-                                studied Biomedical Engineering at the University
-                                of Akron. She coordinates and manages operations
-                                at HTCHI. Her interests include climbing,
-                                reading, and spending time with her family. She
-                                is passionate about helping people.
+                            
+                                Chidiebere brings her biomedical and automotive engineering experience. She
+                                coordinates and manages operations at Home Tutors Health Charity Initiative.
                             </p>
                         </div>
                     </div>
                     <div className="container">
                         <div className="content">
                             <h3 className="capition">
-                                Adaeze Aninweze, Director of Operations
+                                Adaeze Aninweze, Program Coordinator
                             </h3>
                             <p>
-                                Adaeze was born in Enugu, Nigeria. She studied
-                                Chemistry at Winthrop University. She is
-                                currently working on her masters of engineering
-                                degree in environmental engineering. She assists
-                                the operations at HTCHI.
+                                Adaeze brings her expertise from chemistry and environmental Engineering.
                             </p>
                         </div>
                         <div className="imgBox">
@@ -126,17 +107,38 @@ function Team() {
                         <div className="content">
                             <h3 className="capition">
                                 {" "}
-                                Ikenna Aninweze, Finance Officer
+                                Ikenna Aninweze, Finance Coordinator
                             </h3>
                             <p>
-                                Ikenna was born in Lagos, Nigeria. He is the son
-                                of Paul and Veronica Eze. He studied finance at
-                                the Ohio State University. He is responsible for
-                                allocating funding and managing the financial
-                                records at HTCHI.
+                            
+                            Ikenna brings his background from finance and computer science. He manages the
+                            financial responsibilities of Home Tutors Health Charity Initiative.
                             </p>
                         </div>
                     </div>
+
+                    <div className="container">
+                        <div className="content">
+                            <h3 className="capition">
+                                Ronald Aninweze, Finance Coordinator
+                            </h3>
+                            <p>
+                                Roland brings his wealth of experience from the financial sector. He handles financial
+                                responsibilities within Home Tutors and Health Charity Initiative.
+                            </p>
+                        </div>
+                        <div className="imgBox">
+                            <img
+                                src="/images/teamRonald.jpg"
+                                alt="Adaeze pic"
+                                style={{ height: "270px", width: "385px" }}
+                                height="255px"
+                                width="370px"
+                            />
+                        </div>
+                    </div>
+
+                    
                 </div>
             </div>
         </>

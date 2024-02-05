@@ -7,10 +7,9 @@ function GetInvolved() {
             <div className="intro-wrap">
                 <h2>Support Us</h2>
                 <p>
-                    Your donation means we can improve the academic and public
-                    health of youths and adults in the communities where we
-                    serve. We are always striving to make a difference with our
-                    mission, and invite you to learn more and lend your support.
+                Your donation means we can improve the academic and public health of youths and
+                adults in the communities where we serve. We are always striving to make a difference
+                with our mission, and invite you to learn more and lend your support.
                 </p>
                 <p>
                     {" "}
@@ -23,8 +22,7 @@ function GetInvolved() {
                             Home Tutors and Health Charity Initiative
                         </strong>{" "}
                     </span>{" "}
-                    is a 501©(3) non-profit organization. Your contribution is
-                    tax deductible. Tax ID: 86-3703035
+                    is a 501©(3) non-profit organization. Your contribution is 100% tax deductible. EIN#: 86-3703035
                 </p>
 
                 <form
