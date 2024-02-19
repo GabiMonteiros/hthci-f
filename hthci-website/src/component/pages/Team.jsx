@@ -20,7 +20,7 @@ function Team() {
                         </div>
 
                         <div className="content">
-                            <h3 className="capition">Paul Eze, Executive Director</h3>
+                            <h3 className="capition">Paul Eze, </h3>
 
                             <p>
                             
@@ -84,7 +84,7 @@ function Team() {
                         </div>
                         <div className="imgBox">
                             <img
-                                src="/images/04.jpg"
+                                src="/images/teamAdaeze.jpg"
                                 alt="Adaeze pic"
                                 style={{ height: "270px", width: "385px" }}
                                 height="255px"

@@ -6,7 +6,10 @@ html,body{
     margin: 0;
 }/*hzontal scroll fix*/
 
-
+.footer-logo img{
+    width: 160px;
+    height: 270px;
+}
 .footer-container {
     background-color: rgb(24, 81, 11);
     padding: 4rem 0 2rem 0;

@@ -81,16 +81,46 @@ function Footer() {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            <i className="fab fa-twitter" />
+                            <i className="fab fa-twitter"/>
                         </a>
                     </div>
+
+                    <div
+                        className="social-icons"
+                        target="_blank"
+                        aria-label="Twitter"
+                    >
+                        <a
+                            href="https://twitter.com/HTHCI_"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <i className="fab fa-instagram" />
+                        </a>
+                    </div>
+
+                    <div
+                        className="social-icons"
+                        target="_blank"
+                        aria-label="Twitter"
+                    >
+                        <a
+                            href="https://twitter.com/HTHCI_"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                   
+                    
                 </div>
             </div>
             <section className="social-media">
                 <div className="social-media-wrap">
                     <div className="footer-logo">
                         <Link to="/" className="social-logo">
-                            HTHCI
+                            <img src="images/logo.png"  alt="" />
                         </Link>
                     </div>
                     <small className="website-rights">

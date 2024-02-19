@@ -15,19 +15,18 @@ function About() {
                       <strong>Home Tutors and Health Charity Initiative</strong>{" "}
                   </span>{" "}
                   is a Nigerian American non-governmental organization working
-                  to improve the academic outcomes of youth in rural communities
-                  and the overall public health in these communities by working
-                  under the guidelines of these sustainable development goals:
-                  good health and well-being, quality education, gender
-                  equality, and clean water and sanitation. Many factors affect
-                  quality education and health so HTCHI’s projects cover diverse
-                  areas that we believe can improve the literacy and health of
-                  our partner communities. We are an organization of trained
-                  individuals in the areas of healthcare, education,
-                  engineering, and computer science putting our skills to uplift
-                  our communities. Our current partner community is Lejja,
-                  Nsukka LGA in the state of Enugu. We are looking forward to
-                  partnering with more communities in the future.
+                  to improve and increase literacy, public health awareness, 
+                  and human development of youths and adults in rural communities 
+                  by working under the guidelines of these sustainable development goals: 
+                  good health and well-being, quality education, gender equality, 
+                  and clean water and sanitation. Many factors affect quality 
+                  life and well-being, so HTCHI oversees diverse projects we believe 
+                  can improve the literacy, public health, and human development of our 
+                  partner communities. We are an organization of trained individuals 
+                  in the areas of healthcare, education, engineering, and computer science 
+                  putting our skills to uplift our communities. Our current partner communities 
+                  are Lejja and Eziani, Nsukka LGA in the state of Enugu. We are looking 
+                  forward to partnering with more communities in the future.
               </p>
           </div>
           <div className="bodyWrap aboutWrap">
@@ -35,22 +34,22 @@ function About() {
                   <div className="container">
                       <div className="imgBox">
                           <img
-                              src="/images/01about.png"
+                              src="/images/01about.jpg"
                               alt=""
                               style={{ height: "250px", width: "250px" }}
                           />
                           <img
-                              src="/images/02about.png"
+                              src="/images/02about.jpg"
                               alt=""
                               style={{ height: "250px", width: "250px" }}
                           />
                           <img
-                              src="/images/03about.png"
+                              src="/images/03about.jpg"
                               alt=""
                               style={{ height: "250px", width: "250px" }}
                           />
                           <img
-                              src="/images/04about.png"
+                              src="/images/04about.jpg"
                               alt=""
                               style={{ height: "250px", width: "250px" }}
                           />

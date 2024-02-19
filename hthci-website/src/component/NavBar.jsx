@@ -17,7 +17,7 @@ function Navbar() {
       <>
           <nav className="navbar">
               <div className="navbar-container">
-                    <img src="images/logo.jpg"
+                    <img src="images/logo.png"  
                         alt="" />
                   <Link
                       to="/"
