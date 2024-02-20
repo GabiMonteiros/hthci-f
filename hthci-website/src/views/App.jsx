@@ -17,7 +17,7 @@ const App = (props) => (
             <Content />
             <Footer/>
             
-        </BrowserRouter>
+        </BrowserRouter> 
     </div>
 );
 

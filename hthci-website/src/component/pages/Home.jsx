@@ -58,7 +58,7 @@ function Home() {
                                 tutoring, homework assistance, test preparation
                                 and technology-based activities.
                             </p>
-                            <Link to="/projects">
+                            <Link to="/after-school">
                                 <button className="moreLink">Learn More</button>
                             </Link>
                         </div>
@@ -72,7 +72,7 @@ function Home() {
                                 in primary, secondary, and tertiary levels of
                                 education to further aid their academic goals.{" "}
                             </p>
-                            <Link to="/projects">
+                            <Link to="/scholarships">
                                 <button className="moreLink">Learn More</button>
                             </Link>
                         </div>
@@ -100,7 +100,7 @@ function Home() {
                             Through our health fair, members of the community are provided with health screenings
                             and teachings for improved health.
                             </p>
-                            <Link to="/projects">
+                            <Link to="/public-health">
                                 <button className="moreLink">Learn More</button>
                             </Link>
                         </div>
@@ -114,7 +114,7 @@ function Home() {
                             levels of independence in construction, grants for small business start up, and
                             community infrastructure.
                             </p>
-                            <Link to="/projects">
+                            <Link to="/human-development" >
                                 <button className="moreLink">Learn More</button>
                             </Link>
                         </div>
@@ -140,7 +140,7 @@ function Home() {
                             <p>
                             We leverage nature to solve problems while safeguarding biodiversity.
                             </p>
-                            <Link to="/projects">
+                            <Link to="/nature-based-solutions">
                                 <button className="moreLink">Learn More</button>
                             </Link>
                         </div>

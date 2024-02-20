@@ -23,7 +23,7 @@ html,body{
 }
 
 .footer-contact {
-    display: flex;
+    display: flex; 
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -129,7 +129,7 @@ form {
 }
 
 .social-icons {
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 .social-logo {
