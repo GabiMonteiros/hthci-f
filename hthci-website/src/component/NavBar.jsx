@@ -14,7 +14,8 @@ function Navbar() {
     
 
     const onMouseEnter = () => {
-        if(window.innerWidth <960) {
+        //originalmente <960
+        if(window.innerWidth <10) { 
             setDropdown(false);
         } else{
             setDropdown(true);
@@ -23,7 +24,8 @@ function Navbar() {
     
 
     const onMouseLeave = () => {
-        if(window.innerWidth <960) {
+         //originalmente <960
+        if(window.innerWidth <10) {
             setDropdown(false);
         } else{
             setDropdown(false);
@@ -96,8 +98,7 @@ function Navbar() {
                           >
                               PROJECTS <i className='fas fa-caret-down'/>
                           </Link>
-                          {dropdown && <Dropdown 
-                          />}
+                          {dropdown && <Dropdown />}
                       </li>
                       <li className="nav-item">
                           <Link

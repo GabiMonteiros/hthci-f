@@ -1,10 +1,10 @@
-html,body{
+/* html,body{
     min-width: 100%;
     min-height: 100%;
     overflow-x: hidden;
     padding: 0;
     margin: 0;
-}/*horizontal scroll fix*/
+}horizontal scroll fix */
 
 .navbar {
   background: #eeeaea;
@@ -28,16 +28,10 @@ html,body{
 }
 
 .navbar-logo {
- 
-  color: rgb(67, 152, 47);
-  justify-self: start;
+
   margin-left: 20px;
   cursor: pointer;
-  text-decoration: none;
-  font-size: 2rem;
   display: flex;
-  align-items: center;
-  font-weight: 600;
 }
 
 .navbar-logo:hover{
@@ -53,11 +47,11 @@ html,body{
   
 }
 
- nav li{
-    float: left;
-    width: 180px;
-    display: block;
-    transition: color .5s;
+nav li{
+  float: left;
+  width: 180px;
+  display: block;
+  transition: color .5s;
      
 } 
 
