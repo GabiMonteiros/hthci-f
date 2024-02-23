@@ -109,3 +109,87 @@ html,body{
     padding-bottom: 450px;
 }
 
+.humanDev{
+    background-color: rgb(67, 152, 47);
+    background-image: linear-gradient( 
+            rgba(41, 39, 39, 0.3),
+            rgba(67, 63, 63, 0.3)
+        ),
+        url("/public/images/01humanDevBanner.jpg");
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    
+    padding-top: 200px;
+    padding-bottom: 450px;
+
+}
+
+.afterSchool{
+    background-color: rgb(67, 152, 47);
+    background-image: linear-gradient( 
+            rgba(41, 39, 39, 0.3),
+            rgba(67, 63, 63, 0.3)
+        ),
+        url("/public/images/01afterSchoolBanner.jpg");
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    
+    padding-top: 200px;
+    padding-bottom: 450px;
+
+}
+
+.natureBased{
+    background-color: rgb(67, 152, 47);
+    background-image: linear-gradient( 
+            rgba(41, 39, 39, 0.3),
+            rgba(67, 63, 63, 0.3)
+        ),
+        url("/public/images/natureBasedSolutionBanner.jpeg");
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    
+    padding-top: 200px;
+    padding-bottom: 450px;
+
+}
+
+
+.publicHealth{
+    background-color: rgb(67, 152, 47);
+    background-image: linear-gradient( 
+            rgba(41, 39, 39, 0.3),
+            rgba(67, 63, 63, 0.3)
+        ),
+        url("/public/images/01publicHealthBanner.jpg");
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    
+    padding-top: 200px;
+    padding-bottom: 450px;
+
+}
+
+.scholarships{
+    background-color: rgb(67, 152, 47);
+    background-image: linear-gradient( 
+            rgba(41, 39, 39, 0.3),
+            rgba(67, 63, 63, 0.3)
+        ),
+        url("/public/images/scholarshipsBanner.jpg");
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    
+    padding-top: 200px;
+    padding-bottom: 450px;
+
+}
+
+
+
+/*scholarshipsBanner.jpg*/

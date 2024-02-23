@@ -46,7 +46,7 @@ function Home() {
                     <div className="container">
                         <div className="imgBox">
                             <img
-                                src="/images/04home.jpg"
+                                src="/images/01home.jpg"
                                 alt=" after school tutoring"
                                 style={{ height: "280px", width: "430px" }}
                             />
@@ -58,7 +58,7 @@ function Home() {
                                 tutoring, homework assistance, test preparation
                                 and technology-based activities.
                             </p>
-                            <Link to="/after-school">
+                            <Link to="/projects/after-school">
                                 <button className="moreLink">Learn More</button>
                             </Link>
                         </div>
@@ -72,7 +72,7 @@ function Home() {
                                 in primary, secondary, and tertiary levels of
                                 education to further aid their academic goals.{" "}
                             </p>
-                            <Link to="/scholarships">
+                            <Link to="/projects/scholarships">
                                 <button className="moreLink">Learn More</button>
                             </Link>
                         </div>
@@ -89,7 +89,7 @@ function Home() {
                     <div className="container">
                         <div className="imgBox">
                             <img
-                                src="/images/01home.jpg"
+                                src="/images/03project.jpg"
                                 alt="a doctor doing an eye exam on someone else"
                                 style={{ height: "285px", width: "440px" }}
                             />
@@ -100,7 +100,7 @@ function Home() {
                             Through our health fair, members of the community are provided with health screenings
                             and teachings for improved health.
                             </p>
-                            <Link to="/public-health">
+                            <Link to="/projects/public-health">
                                 <button className="moreLink">Learn More</button>
                             </Link>
                         </div>
@@ -114,13 +114,13 @@ function Home() {
                             levels of independence in construction, grants for small business start up, and
                             community infrastructure.
                             </p>
-                            <Link to="/human-development" >
+                            <Link to="/projects/human-development" >
                                 <button className="moreLink">Learn More</button>
                             </Link>
                         </div>
                         <div className="imgBox">
                             <img
-                                src="/images/02home.jpg"
+                                src="/images/05project.jpg"
                                 alt=""
                                 style={{ height: "300px", width: "440px" }}
                             />
@@ -140,7 +140,7 @@ function Home() {
                             <p>
                             We leverage nature to solve problems while safeguarding biodiversity.
                             </p>
-                            <Link to="/nature-based-solutions">
+                            <Link to="/projects/nature-based-solutions">
                                 <button className="moreLink">Learn More</button>
                             </Link>
                         </div>

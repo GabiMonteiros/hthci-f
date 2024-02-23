@@ -128,7 +128,7 @@ function Footer() {
                         <p>
                             {" "}
                             Copyright &copy; Home Tutors and Health Charity
-                            Initiative 2022
+                            Initiative 2024
                         </p>
                     </small>
                 </div>

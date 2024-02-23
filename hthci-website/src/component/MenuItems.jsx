@@ -1,26 +1,26 @@
 export const MenuItems = [
     {
         title: 'After School Tutoring',
-        path: '/after-school',
+        path: '/projects/after-school',
         cName: 'drpdown-link'
     },
     {
         title: 'Scholarships',
-        path: '/scholarships',
+        path: '/projects/scholarships',
         cName: 'drpdown-link'
     },
     {
         title: 'Public Health',
-        path: '/public-health',
+        path: '/projects/public-health',
         cName: 'drpdown-link'
     },{
         title: 'Human Development',
-        path: '/human-development',
+        path: '/projects/human-development',
         cName: 'drpdown-link'
     },
     {
         title: 'Nature Based Solutions',
-        path: '/nature-based-solutions',
+        path: '/projects/nature-based-solutions',
         cName: 'drpdown-link'
     }
 ]

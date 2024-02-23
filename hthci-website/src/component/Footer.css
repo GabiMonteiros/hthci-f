@@ -67,7 +67,7 @@ form {
     display: flex;
 }
 
-.footer-links-items {
+.footer-links-items { 
     display: flex;
     flex-direction: row;
     margin: 16px;

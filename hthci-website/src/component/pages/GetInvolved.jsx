@@ -5,7 +5,7 @@ function GetInvolved() {
         <>
             <div className="getInvolved"></div>
             <div className="intro-wrap">
-                <h2>Support Us</h2>
+                <h2>Support Us</h2> 
                 <p>
                 Your donation means we can improve the academic and public health of youths and
                 adults in the communities where we serve. We are always striving to make a difference
