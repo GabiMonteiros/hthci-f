@@ -10,6 +10,8 @@ function Contact() {
                         <div className="contactContent">
                             <h2>Home Tutors and Health Charity Initiative</h2>
                             <p>
+                                <br></br>
+                                <br></br>
                                 Thank you for your interest in{" "}
                                 <span
                                     style={{

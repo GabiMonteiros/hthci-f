@@ -15,6 +15,8 @@ function Home() {
             <div className="intro-wrap">
                 <h2>Who We Are</h2>
                 <p>
+                <br></br>
+                <br></br>
                     <span
                         style={{
                             color: "rgb(67, 152, 47) ",

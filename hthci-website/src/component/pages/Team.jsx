@@ -107,12 +107,12 @@ function Team() {
                         <div className="content">
                             <h3 className="capition">
                                 {" "}
-                                Ikenna Aninweze, Finance Coordinator
+                                Ikenna Aninweze, Program Coordinator
                             </h3>
                             <p>
                             
-                            Ikenna brings his background from finance and computer science. He manages the
-                            financial responsibilities of Home Tutors Health Charity Initiative.
+                            Ikenna brings his background from finance and computer science. 
+                            He supports project activities within Home Tutors and Health Charity Initiative.
                             </p>
                         </div>
                     </div>

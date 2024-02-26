@@ -6,6 +6,8 @@ function About() {
           <div className="intro-wrap" id="about">
               <h2>Our Story</h2>
               <p>
+              <br></br>
+              <br></br>
                   <span
                       style={{
                           color: "rgb(67, 152, 47) ",
