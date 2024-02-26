@@ -1,7 +1,7 @@
 .dropdown-menu{
     width: 250px;
     position: absolute;
-    top: 80px;
+    top: 50px;
     margin: 10px;
     text-align: start;
    
@@ -12,7 +12,7 @@
 .dropdown-menu li{
     background: #eeeaea;
     cursor: pointer;
-    padding: 5px 5px 5px 15px;
+    padding: 5px 8px 5px 15px;
     color: #eeeaea;
 }
 
@@ -43,20 +43,12 @@ a, a:hover{
 @media screen and (max-width: 1435px) {
 
     .dropdown-menu{
-       /*  width: 250px;
-        position: absolute;
-        top: 80px;
-        margin: 10px;
-        text-align: start;
-        list-style: none;
-        /* text-decoration: none; */
-        
         height: 25px;
         padding-left: 5rem;
-        padding-top: 3.8rem;
+        padding-top: 6rem;
         align-items: center;
-        
-        
+      
+
         &:hover{
             cursor: pointer;
         }

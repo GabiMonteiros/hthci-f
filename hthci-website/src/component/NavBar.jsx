@@ -22,7 +22,7 @@ function Navbar() {
     //     }
     // };
     const onMouseEnter = () => {
-        if (window.innerWidth < 960) {
+        if (window.innerWidth < 10) {
             setDropdown(false);
           } else {
             setDropdown(true);
@@ -41,7 +41,7 @@ function Navbar() {
     //    };
    
     const onMouseLeave = () => {
-        if (window.innerWidth < 960) {
+        if (window.innerWidth < 10) {
             setDropdown(false);
           } else {
             setDropdown(false);
@@ -50,20 +50,21 @@ function Navbar() {
 
   return (
       <>
-          <nav className="navbar">
-              <div className="navbar-container">
+            <nav className="navbar">
+
+                <div className="navbar-container">
                     
-                  <Link
-                    
-                      to="/"
-                      className="navbar-logo" 
-                      onClick={closeMobileMenu}
-                  >
-                      {/* HTHCI */}
-                      <img src="images/logo.png"  
-                        alt="" />
-                     
-                  </Link>
+                     <Link
+                        
+                        to="/"
+                        className="navbar-logo" 
+                        onClick={closeMobileMenu}
+                    >
+                        {/* HTHCI */}
+                        <img src="images/logoHthci.png"  
+                            alt="" />
+                        
+                    </Link>
                   <div className="menu-icon" onClick={handleClick}>
                       {/* burger menu */}
                       <i className={click ? "fas fa-times" : "fas fa-bars"} />

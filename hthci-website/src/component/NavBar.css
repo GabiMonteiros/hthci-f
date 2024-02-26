@@ -13,7 +13,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   position: sticky; 
   top: 0;
   z-index: 999;
@@ -29,9 +29,10 @@
 
 .navbar-logo {
 
-  margin-left: 20px;
+  /* margin-left: 20px; */
+  justify-content: right;
   cursor: pointer;
-  display: flex;
+  /* display: flex; */
 }
 
 .navbar-logo:hover{
@@ -42,8 +43,8 @@
   
   list-style: none;
   text-align: center;
-  justify-content: end;
-  margin-right: 2rem;
+  /* justify-content: end; */
+  margin-right: -15rem;
   
 }
 
@@ -52,7 +53,6 @@ nav li{
   width: 180px;
   display: block;
   transition: color .5s;
-     
 } 
 
 .nav-item {
@@ -70,7 +70,7 @@ nav li{
 }
 
 .nav-links:hover {
-  border-bottom: 5px solid #e91e63;
+  border-bottom: 4px solid #e91e63;
   transition: all 0.2s ease-out;
 }
 
