@@ -33,11 +33,11 @@ function AfterSchool() {
             Your support will assist us with contracting instructors, buying digital tools and offering the DLP to our participants at no cost.  
             <br></br>
             
-            <form className="paypalBtn" action="https://www.paypal.com/donate" method="post" target="_top">
+            <form className="paypalBtn" action="https://www.paypal.com/donate" method="post" target="_blank">
               <input type="hidden" name="campaign_id" value="DDJV9SFZREB42" />
               <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
               <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-            </form>
+            </form> 
 
             <br></br>
             For more information and updates, follow our social media accounts. 

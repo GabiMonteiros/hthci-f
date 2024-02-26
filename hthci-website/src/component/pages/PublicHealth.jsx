@@ -23,7 +23,7 @@ function PublicHealth() {
           to assist our collaborators in getting to and within Nigeria, accommodating collaborators, and purchasing 
           resources required for the health screenings and workshops. 
           <br></br>
-          <form className="paypalBtn" action="https://www.paypal.com/donate" method="post" target="_top">
+          <form className="paypalBtn" action="https://www.paypal.com/donate" method="post" target="_blank">
             <input type="hidden" name="campaign_id" value="W7SNRXDCZ3L9L" />
             <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />

@@ -91,7 +91,7 @@ function Footer() {
                         aria-label="Twitter"
                     >
                         <a
-                            href="https://twitter.com/HTHCI_"
+                            href="https://www.instagram.com/hthci_ng/?igsh=MXRsM2pyZzI1bHVhOA%3D%3D&utm_source=qr"
                             target="_blank"
                             rel="noreferrer"
                         >

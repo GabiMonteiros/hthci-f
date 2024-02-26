@@ -34,7 +34,7 @@ function HumanDev() {
         <br></br>
         Your support allows us to continue empowering more individuals and communities.
         <br></br>
-        <form className="paypalBtn" action="https://www.paypal.com/donate" method="post" target="_top">
+        <form className="paypalBtn" action="https://www.paypal.com/donate" method="post" target="_blank">
           <input type="hidden" name="campaign_id" value="HVNNNVFRYNUJL" />
           <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
           <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />

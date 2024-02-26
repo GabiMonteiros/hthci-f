@@ -13,24 +13,40 @@ function Navbar() {
     const closeMobileMenu = () => setClick(false);
     
 
+    // const onMouseEnter = () => {
+    //     //originalmente <960
+    //     if(window.innerWidth <10) { 
+    //         setDropdown(false);
+    //     } else{
+    //         setDropdown(true);
+    //     }
+    // };
     const onMouseEnter = () => {
-        //originalmente <960
-        if(window.innerWidth <10) { 
+        if (window.innerWidth < 960) {
             setDropdown(false);
-        } else{
+          } else {
             setDropdown(true);
-        }
-    };
+          }
+        };
+      
     
 
+    //     const onMouseLeave = () => {
+    //         //originalmente <960
+    //        if(window.innerWidth <10) {
+    //            setDropdown(false);
+    //        } else{
+    //            setDropdown(false);
+    //        }
+    //    };
+   
     const onMouseLeave = () => {
-         //originalmente <960
-        if(window.innerWidth <10) {
+        if (window.innerWidth < 960) {
             setDropdown(false);
-        } else{
+          } else {
             setDropdown(false);
-        }
-    };
+          }
+        };
 
   return (
       <>
@@ -91,13 +107,13 @@ function Navbar() {
                         onMouseEnter={onMouseEnter}
                         onMouseLeave={onMouseLeave}
                       >
-                          <Link
-                              to="/projects"
+                          <div
+                              
                               className="nav-links"
                               onClick={closeMobileMenu}
                           >
                               PROJECTS <i className='fas fa-caret-down'/>
-                          </Link>
+                          </div>
                           {dropdown && <Dropdown />}
                       </li>
                       <li className="nav-item">
