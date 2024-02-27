@@ -54,7 +54,7 @@ function Navbar() {
 
                 <div className="navbar-container">
                     
-                     <Link
+                    <Link
                         
                         to="/"
                         className="navbar-logo" 
@@ -62,20 +62,19 @@ function Navbar() {
                     >
                         {/* HTHCI */}
                         <img src="images/logoHthci.png"  
-                            alt="" />
+                        alt="" />
+                 
                         
                     </Link>
-                  <div className="menu-icon" onClick={handleClick}>
-                      {/* burger menu */}
-                      <i className={click ? "fas fa-times" : "fas fa-bars"} />
-                  </div>
+                    <div className="menu-icon" onClick={handleClick}>
+                        {/* burger menu */}
+                        <i className={click ? "fas fa-times" : "fas fa-bars"} />
+                    </div>
 
-                  <ul className={click ? "nav-menu active" : "nav-menu"}>
+                    <ul className={click ? "nav-menu active" : "nav-menu"}>
                       {/* qnd clica desaparece o menu */}
 
-                     
-
-                      <li className="nav-item">
+                        {/* <li className="nav-item">
                           <button id="donateBtn">
                               <Link
                                   to="/get-involved"
@@ -85,8 +84,8 @@ function Navbar() {
                                   DONATE
                               </Link>
                           </button>
-                      </li>
-                      <li className="nav-item">
+                        </li> */}
+                        <li className="nav-item">
                           <Link
                               to="/"
                               className="nav-links-mobile"
@@ -94,8 +93,21 @@ function Navbar() {
                           >
                               HOME
                           </Link>
-                      </li>
-                      <li className="nav-item">
+                        </li>
+                        <li className="nav-item"
+                            onMouseEnter={onMouseEnter}
+                            onMouseLeave={onMouseLeave}
+                        >
+                            <div
+                              
+                              className="nav-links"
+                              onClick={closeMobileMenu}
+                            >
+                              PROJECTS <i className='fas fa-caret-down'/>
+                            </div>
+                            {dropdown && <Dropdown />}
+                        </li>
+                        <li className="nav-item">
                           <Link
                               to="/about"
                               className="nav-links"
@@ -103,30 +115,30 @@ function Navbar() {
                           >
                               ABOUT US
                           </Link>
-                      </li>
-                      <li className="nav-item"
-                        onMouseEnter={onMouseEnter}
-                        onMouseLeave={onMouseLeave}
-                      >
-                          <div
+                        </li>
+                        {/* <li className="nav-item"
+                            onMouseEnter={onMouseEnter}
+                            onMouseLeave={onMouseLeave}
+                        >
+                            <div
                               
                               className="nav-links"
                               onClick={closeMobileMenu}
-                          >
+                            >
                               PROJECTS <i className='fas fa-caret-down'/>
-                          </div>
-                          {dropdown && <Dropdown />}
-                      </li>
-                      <li className="nav-item">
+                            </div>
+                            {dropdown && <Dropdown />}
+                        </li> */}
+                        <li className="nav-item">
                           <Link
                               to="/contact"
                               className="nav-links"
                               onClick={closeMobileMenu}
                           >
                               CONTACT
-                          </Link>
-                      </li>
-                      <li className="nav-item"> 
+                            </Link>
+                        </li>
+                        <li className="nav-item"> 
                           <Link
                               to="/team"
                               className="nav-links"
@@ -134,8 +146,8 @@ function Navbar() {
                           >
                               MEET THE TEAM
                           </Link>
-                      </li>
-                      <li className="nav-item">
+                        </li>
+                        <li className="nav-item">
                           <Link
                               to="/get-involved"
                               className="nav-links"
@@ -143,11 +155,22 @@ function Navbar() {
                           >
                               GET INVOLVED
                           </Link>
-                      </li>
-                  </ul>
-                  
-              </div>
-          </nav>
+                        </li>
+                        <li className="nav-item">
+                          <button id="donateBtn">
+                              <Link
+                                  to="/get-involved"
+                                  className="donateBtnC"
+                                  onClick={closeMobileMenu}
+                              >
+                                  DONATE
+                              </Link>
+                          </button>
+                        </li>
+
+                    </ul>  
+                </div>
+            </nav>
       </>
   );
 }
