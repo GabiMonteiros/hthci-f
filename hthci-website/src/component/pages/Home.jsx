@@ -48,9 +48,9 @@ function Home() {
                     <div className="container">
                         <div className="imgBox">
                             <img
-                                src="/images/01home.jpg"
+                                src="/images/04home.JPG"
                                 alt=" after school tutoring"
-                                style={{ height: "280px", width: "430px" }}
+                                style={{ height: "290px", width: "430px" }}
                             />
                         </div>
                         <div className="content">
@@ -91,9 +91,9 @@ function Home() {
                     <div className="container">
                         <div className="imgBox">
                             <img
-                                src="/images/03project.jpg"
+                                src= "/images/01home.JPG"
                                 alt="a doctor doing an eye exam on someone else"
-                                style={{ height: "285px", width: "440px" }}
+                                style={{ height: "280px", width: "426px" }}
                             />
                         </div>
                         <div className="content">
@@ -124,7 +124,7 @@ function Home() {
                             <img
                                 src="/images/05project.jpg"
                                 alt=""
-                                style={{ height: "300px", width: "440px" }}
+                                style={{ height: "300px", width: "430px" }}
                             />
                         </div>
                     </div>
@@ -134,7 +134,7 @@ function Home() {
                             <img
                                 src="/images/05home.jpg"
                                 alt="a doctor doing an eye exam on someone else"
-                                style={{ height: "285px", width: "440px" }}
+                                style={{ height: "285px", width: "430px" }}
                             />
                         </div>
                         <div className="content">

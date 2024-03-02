@@ -43,8 +43,9 @@ a, a:hover{
 
     .dropdown-menu{
         height: 25px;
-        padding-left: 5rem;
-        padding-top: 6rem;
+        padding-left: 2rem;
+        /* padding-bottom: 10rem; */
+        margin-top: -40px;
         align-items: center;
       
 

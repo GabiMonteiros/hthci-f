@@ -13,46 +13,30 @@ function Navbar() {
     const closeMobileMenu = () => setClick(false);
     
 
-    // const onMouseEnter = () => {
-    //     //originalmente <960
-    //     if(window.innerWidth <10) { 
-    //         setDropdown(false);
-    //     } else{
-    //         setDropdown(true);
-    //     }
-    // };
     const onMouseEnter = () => {
         if (window.innerWidth < 10) {
             setDropdown(false);
-          } else {
+        } else {
             setDropdown(true);
-          }
-        };
-      
-    
+        }
+    };
 
-    //     const onMouseLeave = () => {
-    //         //originalmente <960
-    //        if(window.innerWidth <10) {
-    //            setDropdown(false);
-    //        } else{
-    //            setDropdown(false);
-    //        }
-    //    };
    
     const onMouseLeave = () => {
         if (window.innerWidth < 10) {
             setDropdown(false);
-          } else {
+        } else {
             setDropdown(false);
-          }
-        };
+        }
+    };
+    
+    
 
   return (
       <>
             <nav className="navbar">
 
-                <div className="navbar-container">
+                <div className="navbar-container" >
                     
                     <Link
                         
