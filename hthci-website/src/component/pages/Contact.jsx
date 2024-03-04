@@ -35,7 +35,9 @@ function Contact() {
                         <div id="overlay">
                             {/* REVER A PARTE DO for em label */}
                             <form
-                                action="https://formsubmit.co/contact@hthci.org"
+                                target="_blank"
+                                // action="https://formsubmit.co/contact@hthci.org"
+                                action="https://formsubmit.co/contatogabimonteiro@gmail.com" 
                                 method="POST"
                             >
                                 <input
@@ -50,6 +52,7 @@ function Contact() {
                                         id="name"
                                         placeholder="First and Last Name"
                                         required
+                                        name="name"
                                     />{" "}
                                 </label>
 
@@ -57,7 +60,8 @@ function Contact() {
                                 <input
                                     type="hidden"
                                     name="_next"
-                                    value="hthci.org/thank-you"
+                                    value="http://localhost:3000/thank-you"
+                                    // value="hthci.org/thank-you"
                                 />
 
                                 <label for="phone">
@@ -66,8 +70,9 @@ function Contact() {
                                         type="text"
                                         id="country"
                                         placeholder="Country"
+                                        name="country"
                                     />{" "}
-                                </label>
+                                </label> 
 
                                 <label for="phone">
                                     Phone:{" "}
@@ -75,27 +80,29 @@ function Contact() {
                                         type="text"
                                         id="phone"
                                         placeholder="Phone"
+                                        name="phone"
                                     />{" "}
-                                </label>
+                                </label>  
 
                                 <label for="email">
                                     Email:{" "}
                                     <input
                                         type="email"
-                                        name="email"
+                                        required name="email"
                                         placeholder="Email Address"
-                                        required
+                                        
                                     />{" "}
                                 </label>
 
                                 <label for="message">Message:</label>
                                 <textarea
-                                    name="message"
                                     placeholder="write your message here"
+                                    name="message"
                                     id=""
                                     cols="30"
                                     rows="6"
                                 ></textarea>
+                                <input type="hidden" name="_captcha" value="false"></input>
 
                                 <div className="btn">
                                     <button type="submit">

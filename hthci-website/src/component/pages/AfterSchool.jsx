@@ -4,22 +4,22 @@ function AfterSchool() {
   return (
     <>
       <div className='afterSchool'></div>
-      <div className="intro-wrap">
-        <h2>After School Tutoring</h2>
-        <p>
-        <br></br>
-        <br></br>
-          <span
-            style={{
-                color: "rgb(67, 152, 47) ",
-                                
-            }}
-          >
-            <strong>
-              HTHCI
-            </strong>
-                            
-          </span>{" "}  
+        <div className="intro-wrap">
+          <h2>After School Tutoring</h2>
+          <p>
+            <br></br>
+            <br></br>
+            <span
+              style={{
+                  color: "rgb(67, 152, 47) ",
+                                  
+              }}
+            > 
+              <strong>
+                HTHCI
+              </strong>
+                              
+            </span>{" "}  
             activities within the after-school tutoring aims to support our youths’ learning process with homework assistance, 
             test preparation, and technology-based activities especially during times of frequent teacher strikes in Nigeria. 
             <br></br>

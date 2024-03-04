@@ -42,6 +42,8 @@ function Home() {
             </div>
             <div className="text-center">
                 <h2>Our Projects</h2>
+                <br></br>
+                
             </div>
             <div className="bodyWrap">
                 <div className="wrap">
@@ -150,7 +152,9 @@ function Home() {
 
                     
                 </div>
-            </div>
+                        
+
+            </div>    
         </>
     );
 }

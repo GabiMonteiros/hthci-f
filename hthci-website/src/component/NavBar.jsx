@@ -81,15 +81,16 @@ function Navbar() {
                         <li className="nav-item"
                             onMouseEnter={onMouseEnter}
                             onMouseLeave={onMouseLeave}
+                            onClick={handleClick} 
                         >
                             <div
                               
                               className="nav-links"
                               onClick={closeMobileMenu}
                             >
-                              PROJECTS <i className='fas fa-caret-down'/>
+                              PROJECTS <i className='fas fa-caret-down' />
                             </div>
-                            {dropdown && <Dropdown />}
+                            {dropdown && <Dropdown  /> } 
                         </li>
                         <li className="nav-item">
                           <Link

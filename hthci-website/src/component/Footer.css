@@ -132,6 +132,11 @@ form {
     margin-left: 50px;
 }
 
+.social-icons:hover {
+    /* background-color: #fff; */
+    color: rgb(231, 65, 209);
+    transition: all 0.3s ease-out;
+}
 .social-logo {
     margin-right: 15px;
     color: rgb(67, 152, 47);
@@ -144,9 +149,6 @@ form {
     font-weight: 600;
 }
 
-.social-logo:hover {
-    color: rgb(92, 231, 65);
-}
 .website-rights {
     color: rgb(254, 254, 254);
 }

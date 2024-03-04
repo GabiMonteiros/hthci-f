@@ -14,9 +14,20 @@ function Footer() {
 
                 <div className="input-areas">
                     <form
-                        action="https://formsubmit.co/contact@hthci.org"
+                        target="_blank"
+                        action="https://formsubmit.co/contatogabimonteiro@gmail.com"
                         method="POST"
-                    >
+                    >   <input
+                            type="hidden"
+                            name="_subject"
+                            value="New Partner!!!"
+                        ></input>
+                         <input
+                            type="hidden"
+                            name="_next"
+                            value="http://localhost:3000/thank-you"
+                            // value="hthci.org/thank-you"
+                        />
                         <input
                             type="email"
                             name="email"
@@ -31,6 +42,7 @@ function Footer() {
                             cols="50"
                             rows="3"
                         ></textarea>
+                        <input type="hidden" name="_captcha" value="false"></input>
                         <div className="btn footer">
                             <button type="submit"> Connect with Us </button>
                         </div>
@@ -55,8 +67,8 @@ function Footer() {
 
                 <div className="footer-links-wrapper">
                     <div className="footer-links-items">
-                        <Link to="/projects">
-                            <h3>Projects</h3>
+                        <Link to="/team">
+                            <h3>Meet The Team</h3>
                         </Link>
                     </div>
                 </div>
