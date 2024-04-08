@@ -44,8 +44,8 @@ function Navbar() {
                         className="navbar-logo" 
                         onClick={closeMobileMenu}
                     >
-                        {/* HTHCI */}
-                        <img src="images/logoHthci.png"  
+                        {/* HTHCI   images/logoHthci.png*/}
+                        <img src="images/logoHthciBlack.png"  
                         alt="" />
                  
                         
@@ -129,7 +129,7 @@ function Navbar() {
                               className="nav-links"
                               onClick={closeMobileMenu}
                           >
-                              MEET THE TEAM
+                              MEET <br></br> THE TEAM
                           </Link>
                         </li>
                         <li className="nav-item">
@@ -138,7 +138,7 @@ function Navbar() {
                               className="nav-links"
                               onClick={closeMobileMenu}
                           >
-                              GET INVOLVED
+                              GET <br></br> INVOLVED
                           </Link>
                         </li>
                         <li className="nav-item">

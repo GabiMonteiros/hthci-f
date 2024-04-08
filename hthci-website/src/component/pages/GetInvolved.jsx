@@ -17,7 +17,7 @@ function GetInvolved() {
                     {" "}
                     <span
                         style={{
-                            color: "rgb(67, 152, 47) ",
+                            color: "rgb(20, 145, 59) ",
                         }}
                     >
                         <strong>

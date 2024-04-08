@@ -32,6 +32,14 @@ function Team() {
                         </div>
                     </div>
                     <div className="container">
+                        <div className="imgBox">
+                            <img
+                                src="/images/teamVeronica.jpg"
+                                alt="veronica pic"
+                                style={{ height: "255px", width: "375px" }}
+                            />
+                        </div>
+
                         <div className="content">
                             <h3 className="capition">
                                 Veronica Eze, Executive Director
@@ -45,13 +53,7 @@ function Team() {
                             </p>
                         </div>
 
-                        <div className="imgBox">
-                            <img
-                                src="/images/teamVeronica.jpg"
-                                alt="veronica pic"
-                                style={{ height: "255px", width: "375px" }}
-                            />
-                        </div>
+                        
                     </div>
                     <div className="container">
                         <div className="imgBox">
@@ -74,14 +76,6 @@ function Team() {
                         </div>
                     </div>
                     <div className="container">
-                        <div className="content">
-                            <h3 className="capition">
-                                Adaeze Aninweze, Program Coordinator
-                            </h3>
-                            <p>
-                                Adaeze brings her expertise from chemistry and environmental Engineering.
-                            </p>
-                        </div>
                         <div className="imgBox">
                             <img
                                 src="/images/teamAdaeze.jpg"
@@ -91,6 +85,15 @@ function Team() {
                                 width="370px"
                             />
                         </div>
+                        <div className="content">
+                            <h3 className="capition">
+                                Adaeze Aninweze, Program Coordinator
+                            </h3>
+                            <p>
+                                Adaeze brings her expertise from chemistry and environmental Engineering.
+                            </p>
+                        </div>
+                        
                     </div>
 
                     <div className="container">
@@ -118,15 +121,6 @@ function Team() {
                     </div>
 
                     <div className="container">
-                        <div className="content">
-                            <h3 className="capition">
-                                Ronald Aninweze, Finance Coordinator
-                            </h3>
-                            <p>
-                                Roland brings his wealth of experience from the financial sector. He handles financial
-                                responsibilities within Home Tutors and Health Charity Initiative.
-                            </p>
-                        </div>
                         <div className="imgBox">
                             <img
                                 src="/images/teamRonald.jpg"
@@ -136,6 +130,16 @@ function Team() {
                                 width="370px"
                             />
                         </div>
+                        <div className="content">
+                            <h3 className="capition">
+                                Ronald Aninweze, Finance Coordinator
+                            </h3>
+                            <p>
+                                Roland brings his wealth of experience from the financial sector. He handles financial
+                                responsibilities within Home Tutors and Health Charity Initiative.
+                            </p>
+                        </div>
+                       
                     </div>
 
                     

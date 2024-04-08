@@ -15,7 +15,7 @@ function Contact() {
                                 Thank you for your interest in{" "}
                                 <span
                                     style={{
-                                        color: "rgb(67, 152, 47) ",
+                                        color: "rgb(20, 145, 59) ",
                                     }}
                                 >
                                     <strong>HTHCI</strong>
@@ -25,7 +25,7 @@ function Contact() {
                                 Please fill out the form or contact us by{" "}
                                 <span
                                     style={{
-                                        color: "rgb(67, 152, 47) ",
+                                        color: "rgb(20, 145, 59) ",
                                     }}
                                 >
                                     <strong>contact@hthci.org</strong>

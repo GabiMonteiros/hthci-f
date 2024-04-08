@@ -25,7 +25,7 @@ html,body{
 .team {
     font-family: system-ui;
     line-height: 1.5;
-    overflow-x: hidden;
+    overflow-x: hidden; 
 }
 
 .home{
@@ -45,23 +45,6 @@ html,body{
     
 }
 
-.projects {
-    background-color: rgb(67, 152, 47);
-    background-image: linear-gradient(
-            rgba(41, 39, 39, 0.3),
-            rgba(67, 63, 63, 0.3)
-        ),
-        url("/public/images//01projectBanner.jpg");
-  
-    background-size: fill;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    background-position: center ;
-    background-repeat: no-repeat;
-    padding-top: 200px;
-    padding-bottom: 400px;
-}
 
 .contact {
     background-color: rgb(67, 152, 47);

@@ -1,5 +1,7 @@
 import React from "react";
+
 import { Link } from "react-router-dom";
+import InstaFeed from "./InstaFeed";
 //import { Button } from "../Button";
 
 
@@ -19,7 +21,7 @@ function Home() {
                 <br></br>
                     <span
                         style={{
-                            color: "rgb(67, 152, 47) ",
+                            color: "rgb(20, 145, 59) ",
                             
                         }}
                     >
@@ -69,6 +71,13 @@ function Home() {
                     </div>
 
                     <div className="container">
+                        <div className="imgBox">    
+                            <img
+                                src="/images/03home.jpg"
+                                alt="someone studying on the computer"
+                                style={{ height: "280px", width: "430px" }}
+                            />
+                        </div>
                         <div className="content">
                             <h3 className="capition">Scholarships</h3>
                             <p>
@@ -81,13 +90,7 @@ function Home() {
                             </Link>
                         </div>
 
-                        <div className="imgBox">
-                            <img
-                                src="/images/03home.jpg"
-                                alt="someone studying on the computer"
-                                style={{ height: "280px", width: "430px" }}
-                            />
-                        </div>
+                        
                     </div>
 
                     <div className="container">
@@ -111,6 +114,14 @@ function Home() {
                     </div>
 
                     <div className="container">
+                        <div className="imgBox">
+                            <img
+                                src="/images/05project.jpg"
+                                alt=""
+                                style={{ height: "300px", width: "430px" }}
+                            />
+                        </div>
+                
                         <div className="content">
                             <h3 className="capition">Human Development</h3>
                             <p>
@@ -122,15 +133,9 @@ function Home() {
                                 <button className="moreLink">Learn More</button>
                             </Link>
                         </div>
-                        <div className="imgBox">
-                            <img
-                                src="/images/05project.jpg"
-                                alt=""
-                                style={{ height: "300px", width: "430px" }}
-                            />
-                        </div>
+                        
                     </div>
-
+                        
                     <div className="container">
                         <div className="imgBox">
                             <img
@@ -139,23 +144,37 @@ function Home() {
                                 style={{ height: "285px", width: "430px" }}
                             />
                         </div>
+                        
                         <div className="content">
+
                             <h3 className="capition">Nature Based Solutions</h3>
                             <p>
                             We leverage nature to solve problems while safeguarding biodiversity.
+                            <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+                            <div class="elfsight-app-1cd1f0d3-a382-4eee-a12a-4dadc06ebd31" data-elfsight-app-lazy></div>
                             </p>
                             <Link to="/projects/nature-based-solutions">
                                 <button className="moreLink">Learn More</button>
                             </Link>
                         </div>
                     </div>
+                    <div className="instaFeed">
+                       
+                       
 
+                    </div>
+                   
                     
                 </div>
-                        
+                
+              
+            
+               
+            </div>  
 
-            </div>    
+            <InstaFeed></InstaFeed>
         </>
+        
     );
 }
 

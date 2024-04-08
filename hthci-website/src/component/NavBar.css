@@ -28,11 +28,6 @@
  
 }
 
-
-.navbar-logo:hover{
-  color: rgb(92, 231, 65);
-}
-
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(7, auto);
@@ -47,7 +42,7 @@
 
 nav li{
   float: left;
-  width: 160px;
+  width: 160px; 
   display: block;
   transition: color .5s;
 } 
@@ -58,7 +53,7 @@ nav li{
 }
 
 .nav-links {
-  color:rgb(67, 152, 47);
+  color:rgb(20, 145, 59 );
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -69,10 +64,11 @@ nav li{
 .nav-links:hover {
   border-bottom: 4px solid #e91e63;
   transition: all 0.2s ease-out;
+  /* width: 110px; */
 }
 
 .fa-bars {
-  color: rgb(67, 152, 47);
+  color: rgb(20, 145, 59 );
 }
 
 .nav-links-mobile {
@@ -84,11 +80,8 @@ nav li{
 }
 
 .navbar-container img{
-  /* width: 70px;
-  height: 120px; */
-  width: 85px;
-  height: 145px;
-
+ width: 185px;
+ 
 }
 
 
@@ -97,10 +90,14 @@ nav li{
 
 
 @media screen and (max-width: 1435px) {
-    /* .navbar {
-    background: #eeeaea;
-   
-    } */
+    .navbar {
+      font-size: 1rem;
+    }
+
+    .navbar-container img{
+      height: 140px;
+      width: 165px;
+    }
 
   .NavbarItems {
     position: relative;
@@ -155,9 +152,11 @@ nav li{
   .nav-links:hover {
     background: #fff;
     height: 10px;
+   
+    /* color: rgb(20, 145, 59); */
     color: rgb(92, 231, 65);
     border-radius: 20px;
-    border-bottom: 2px solid #e91e63;
+    border-bottom: 3px solid #e91e63;
     
   }
   /* .nav-links:hover {
@@ -184,7 +183,7 @@ nav li{
   }
 
   .fa-times {
-    color: rgb(67, 152, 47);
+    color: rgb(20, 145, 59 );
     font-size: 2rem;
   }
 
@@ -193,7 +192,7 @@ nav li{
     text-align: center;
     text-decoration: none;
     font-weight: 600;
-    color: rgb(67, 152, 47);
+    color: rgb(20, 145, 59 );
     padding: 14px 20px;
     margin-top:  30px;
     width: 332px;
