@@ -15,7 +15,7 @@ import NotFound from "./pages/NotFound";
 
 
 
-const Content = (props) => (
+const Content = (props) => ( 
     <main className="Content">
         <Routes>
             <Route exact path="/" element={<Home />}></Route>

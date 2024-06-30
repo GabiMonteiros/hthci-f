@@ -15,7 +15,7 @@ function Footer() {
                 <div className="input-areas">
                     <form
                         target="_blank"
-                        action="https://formsubmit.co/contatogabimonteiro@gmail.com"
+                        action="https://formsubmit.co/monteirogabi@gmail.com"
                         method="POST"
                     >   <input
                             type="hidden"
@@ -25,8 +25,8 @@ function Footer() {
                          <input
                             type="hidden"
                             name="_next"
-                            value="http://localhost:3000/thank-you"
-                            // value="hthci.org/thank-you"
+                            value="https://hthci.org/thank-you"
+                           
                         />
                         <input
                             type="email"
@@ -117,11 +117,11 @@ function Footer() {
                         aria-label="Twitter"
                     >
                         <a
-                            href="https://twitter.com/HTHCI_"
+                            href="https://www.facebook.com/profile.php?id=61557443999048"
                             target="_blank"
                             rel="noreferrer"
                         >
-                            <i class="fab fa-facebook"></i>
+                            <i className="fab fa-facebook"></i>
                         </a>
                     </div>
                    

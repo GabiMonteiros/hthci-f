@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Link } from "react-router-dom";
-import InstaFeed from "./InstaFeed";
+// import InstaFeed from "./InstaFeed";
 //import { Button } from "../Button";
 
 
@@ -172,7 +172,7 @@ function Home() {
                
             </div>  
 
-            <InstaFeed></InstaFeed>
+            {/* <InstaFeed></InstaFeed> */}
         </>
         
     );
